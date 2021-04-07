@@ -1,0 +1,12 @@
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\bin\Debug\net5.0\Holidays.deps.json
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\bin\Debug\net5.0\Holidays.dll
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\bin\Debug\net5.0\ref\Holidays.dll
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\bin\Debug\net5.0\Holidays.pdb
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\Holidays.csprojAssemblyReference.cache
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\Holidays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\Holidays.AssemblyInfoInputs.cache
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\Holidays.AssemblyInfo.cs
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\Holidays.csproj.CoreCompileInputs.cache
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\Holidays.dll
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\ref\Holidays.dll
+D:\Repositories\.NET\Holiday-Planner\Holidays\Holidays\obj\Debug\net5.0\Holidays.pdb

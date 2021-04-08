@@ -20,6 +20,7 @@ I think I got good understanding of the problem right from the start and figured
 
 - Counting the days could probably have more sophisticated implementation than my scanning approach, but I found this way to be effective and quick to implement.
 - Holiday counting could possibly have been abstracted to separate IHolidayCounter, but that is kind of covered by making the whole Holiday Planner an abstraction of IHolidayPlanner.
+- Replacing elements with improved versions would require either changes to the existing tests or new ones altogether, which might cause a bit of a hassle in the long run.
 
 **Conclusion:**
 

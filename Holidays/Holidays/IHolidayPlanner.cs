@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Holidays.Interfaces
+namespace Holidays
 {
     public interface IHolidayPlanner
     {

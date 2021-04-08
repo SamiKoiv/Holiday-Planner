@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace Holidays.NationalHolidays
 {
-    public class FinnishHolidaysTest : NationalHolidaysBase
+    public class FinnishHolidaysTest : INationalHolidays
     {
+        private List<DateTime> _holidays;
+
         List<DateTime> testData = new List<DateTime>()
         {
             new DateTime(2021, 1, 1),
@@ -35,5 +38,11 @@ namespace Holidays.NationalHolidays
         {
             _holidays = testData;
         }
+
+        public bool IsNationalHoliday(DateTime date)
+        {
+            return _holidays.Any(holiday => holiday.CompareTo(date) == 0);
+        }
+
     }
 }

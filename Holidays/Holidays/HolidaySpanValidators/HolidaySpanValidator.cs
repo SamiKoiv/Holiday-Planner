@@ -1,12 +1,12 @@
 ﻿using Holidays.Extensions;
-using Holidays.Interfaces;
+using Holidays.HolidayPeriods;
 using System;
 
-namespace Holidays
+namespace Holidays.HolidaySpanValidators
 {
-    public class HolidaySpanValidator : IDateSpanValidator
+    public class HolidaySpanValidator : IHolidaySpanValidator
     {
-        IHolidayPeriod _holidayPeriod = new HolidayPeriod();
+        IHolidayPeriod _holidayPeriod = new FinnishHolidayPeriod();
 
         public bool ValidateDateSpan(DateTime firstDay, DateTime lastDay, out string validationMessage)
         {

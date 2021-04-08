@@ -1,16 +1,16 @@
 using Holidays;
+using Holidays.HolidaySpanValidators;
 using Holidays.NationalHolidays;
 using NUnit.Framework;
 using System;
-using Holidays.Interfaces;
 
 namespace Tests
 {
     public class HolidayPlannerTests
     {
         IHolidayPlanner _planner;
-        NationalHolidaysBase _testHolidays;
-        IDateSpanValidator _spanValidator;
+        INationalHolidays _testHolidays;
+        IHolidaySpanValidator _spanValidator;
 
         [SetUp]
         public void Setup()

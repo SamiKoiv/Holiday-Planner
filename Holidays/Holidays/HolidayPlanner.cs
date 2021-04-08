@@ -1,16 +1,16 @@
 ﻿using Holidays.Extensions;
-using Holidays.Interfaces;
 using Holidays.NationalHolidays;
+using Holidays.HolidaySpanValidators;
 using System;
 
 namespace Holidays
 {
     public class HolidayPlanner : IHolidayPlanner
     {
-        private NationalHolidaysBase _nationalHolidays;
-        private IDateSpanValidator _spanValidator;
+        private INationalHolidays _nationalHolidays;
+        private IHolidaySpanValidator _spanValidator;
 
-        public HolidayPlanner(IDateSpanValidator spanValidator, NationalHolidaysBase nationalHolidays)
+        public HolidayPlanner(IHolidaySpanValidator spanValidator, INationalHolidays nationalHolidays)
         {
             _spanValidator = spanValidator;
             _nationalHolidays = nationalHolidays;
@@ -34,10 +34,11 @@ namespace Holidays
         private int CountNeededHolidays(DateTime firstDay, int days)
         {
             int neededHolidays = 0;
+            DateTime iteratedDay;
 
             for (int i = 0; i < days; i++)
             {
-                var iteratedDay = firstDay.AddDays(i);
+                iteratedDay = firstDay.AddDays(i);
 
                 if (NeedsHoliday(iteratedDay))
                 {

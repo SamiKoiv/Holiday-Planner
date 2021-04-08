@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Holidays.Interfaces
+namespace Holidays.HolidaySpanValidators
 {
-    public interface IDateSpanValidator
+    public interface IHolidaySpanValidator
     {
         public bool ValidateDateSpan(DateTime firstDay, DateTime lastDay, out string validationMessage);
     }

@@ -1,10 +1,9 @@
 ﻿using Holidays.Extensions;
 using System;
-using Holidays.Interfaces;
 
-namespace Holidays
+namespace Holidays.HolidayPeriods
 {
-    public class HolidayPeriod : IHolidayPeriod
+    public class FinnishHolidayPeriod : IHolidayPeriod
     {
         public bool FitsInsideHolidayPeriod(DateTime firstDay, DateTime lastDay)
         {

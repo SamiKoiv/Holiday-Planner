@@ -1,5 +1,4 @@
-﻿using Holidays;
-using Holidays.Interfaces;
+﻿using Holidays.HolidaySpanValidators;
 using NUnit.Framework;
 using System;
 
@@ -7,7 +6,7 @@ namespace Tests
 {
     public class HolidaySpanValidatorTests
     {
-        IDateSpanValidator _validator;
+        IHolidaySpanValidator _validator;
 
         [SetUp]
         public void Setup()
